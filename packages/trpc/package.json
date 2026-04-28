@@ -1,0 +1,23 @@
+{
+  "name": "@freelancex/trpc",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@freelancex/db": "workspace:*",
+    "@trpc/server": "^11.0.0-rc",
+    "@trpc/client": "^11.0.0-rc",
+    "@trpc/react-query": "^11.0.0-rc",
+    "@tanstack/react-query": "^5.51.0",
+    "drizzle-orm": "^0.33.0",
+    "zod": "^3.23.0",
+    "superjson": "^2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}

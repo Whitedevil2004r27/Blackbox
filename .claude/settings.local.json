@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tsc --noEmit -p apps/api/tsconfig.json)",
+      "Bash(tsc --noEmit -p packages/trpc/tsconfig.json)",
+      "Bash(npx tsc --noEmit -p apps/api/tsconfig.json)",
+      "Bash(npx tsc --noEmit -p packages/trpc/tsconfig.json)",
+      "Bash(pnpm dev)",
+      "Bash(pnpm install)",
+      "Bash(PORT=4002 pnpm dev)",
+      "Bash(pnpm store path)"
+    ]
+  }
+}
